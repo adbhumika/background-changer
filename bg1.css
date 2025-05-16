@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    margin-top:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+p{
+    color:palevioletred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#switch{
+    list-style-type:none;
+    overflow:hidden;
+}
+#switch li{
+    float:left;
+    border:2px solid black;
+    width:45px;
+    height:45px;
+    margin:15px;
+    border-radius:35px;
+    cursor:pointer;
+}
+#red{
+    background-color:red;
+}
+#grey{
+    background-color:grey;
+}
+#pink{
+    background-color:pink;
+}
+#purple{
+    background-color:purple;
+}
+#orange{
+    background-color:orange;
+}
+#skyblue{
+    background-color:skyblue;
+}
